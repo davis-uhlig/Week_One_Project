@@ -1,0 +1,130 @@
+html {
+    margin: 0px;
+}
+
+body {
+    width: 1280px;
+    margin: 0px;
+    font-family: "Merriweather", serif;
+}
+
+.background-image {
+    background-image: url("../images/background-2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    position: relative;
+}
+
+.nav-main {
+    position: fixed;
+    width: 1280px;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-titles {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+a {
+    color:#2B2F26
+}
+
+a:hover {
+    color:#CD5D67
+}
+
+a:active {
+    color: #968772;
+}
+
+.bent-creek-logo {
+    margin-top: -60px;
+}
+
+#logo-main {
+    width: 50px;
+}
+
+main {
+    height: 500px;
+    top: 150px;
+    position: absolute;
+    background-color: white;
+    margin-left: 250px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+h3 {
+    margin-top: -10px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+fieldset {
+    border: none;
+}
+
+#name {
+    border: none;
+}
+
+#email {
+    border: none;
+}
+
+.submit-button {
+    text-align: center;
+    height: 50px;
+    border: none;
+}
+
+#submit {
+    font-size: 30px;
+    height: 80px;
+    width: 180px;
+    border: none;
+    background-color: #968772;
+    margin-top: 30px;
+}
+
+#submit:hover {
+    background-color: #967343;
+}
+
+label {
+    font-size: 27px;
+}
+
+hr {
+    background-color: black;
+    width: 700px;
+}
+
+#name {
+    height: 30px;
+    width: 600px;
+}
+
+#email {
+    height: 30px;
+    width: 600px;
+}
+
+

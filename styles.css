@@ -1,0 +1,204 @@
+body {
+    width: 1280px;
+    margin: 0px;
+    font-family: "Merriweather", serif;
+}
+
+.nav-main {
+    position: fixed;
+    width: 1280px;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-titles {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+a {
+    color:#2B2F26
+}
+
+a:hover {
+    color:#CD5D67
+}
+
+a:active {
+    color: #968772;
+}
+
+.bent-creek-logo {
+    margin-top: -60px;
+}
+
+main {
+    background-color: #F2F1E8;
+    margin-top: -50px;
+    height: 950px;
+}
+h1 {
+    font-size: 400%;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 250%;
+    text-align: center;
+    font-weight: normal;
+    margin-top: -30px;
+}
+
+.main-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#first-image {
+    height: 400px;
+    width: 650px;
+    margin-left: 20px;
+    margin-right: 4px;
+    object-fit: cover;
+}
+
+#second-image {
+    height: 400px;
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#third-image {
+    height: 400px;
+    width: 250px;
+}
+
+#fourth-image {
+    height: 233px;
+    width: 233px;
+    margin: 20px 17px 20px 20px;
+    object-fit: cover;
+}
+
+#fifth-image {
+    height: 233px;
+    width: 233px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+#sixth-image {
+    height: 233px;
+    width: 425px;
+    margin: 20px 17px 20px 20px;
+    object-fit: cover;
+
+}
+
+#seventh-image {
+    height: 233px;
+    width:250px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+#logo-main {
+    width: 50px;
+    padding-top: 10px;
+}
+
+.picture-text {
+    position: relative;
+}
+
+#endless-possibilities {
+    margin-top: -340px;
+    margin-left: 20px;
+    color: #F2F1E8;
+    font-size: 16px;
+    width: 175px;
+    background-color: #39393a;
+    position: absolute;
+    padding: 15px;
+}
+
+#sets {
+    margin-top: -340px;
+    margin-left: 694px;
+    color: #F2F1E8;
+    font-size: 16px;
+    width: 35px;
+    background-color: #39393a;
+    position: absolute;
+    padding: 15px;
+}
+
+#textures {
+    margin-top: -340px;
+    margin-left: 964px;
+    color: #F2F1E8;
+    font-size: 16px;
+    width: 70px;
+    background-color: #39393a;
+    position: absolute;
+    padding: 15px;
+}
+
+#tea-time {
+    margin-top: -85px;
+    margin-left: 20px;
+    color: #F2F1E8;
+    font-size: 16px;
+    width: 80px;
+    background-color: #39393a;
+    position: absolute;
+    padding: 15px;
+}
+
+#jars-and-containers {
+    margin-top: -85px;
+    margin-left: 270px;
+    color: #F2F1E8;
+    font-size: 16px;
+    width: 180px;
+    background-color: #39393a;
+    position: absolute;
+    padding: 15px;
+}
+
+#wasabi-and-saki {
+    margin-top: -85px;
+    margin-left: 523px;
+    color: #F2F1E8;
+    font-size: 16px;
+    width: 148px;
+    background-color: #39393a;
+    position: absolute;
+    padding: 15px;
+}
+
+#sippin-on-sunshine {
+    margin-top: -85px;
+    margin-left: 965px;
+    color: #F2F1E8;
+    font-size: 16px;
+    width: 180px;
+    background-color: #39393a;
+    position: absolute;
+    padding: 15px;
+}
+
+.main-footer {
+    background-color: #39393a;
+    color: #F2F1E8;
+    font-size: 16px;
+    padding: 20px;
+}
+
+
+

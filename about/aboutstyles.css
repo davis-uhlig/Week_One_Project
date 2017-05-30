@@ -1,0 +1,148 @@
+body {
+    width: 1280px;
+    margin: 0px;
+    font-family: "Merriweather", serif;
+}
+
+.nav-main {
+    position: fixed;
+    width: 1280px;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-titles {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+a {
+    color:#2B2F26
+}
+
+a:hover {
+    color:#CD5D67
+}
+
+a:active {
+    color: #968772;
+}
+
+.bent-creek-logo {
+    margin-top: -60px;
+}
+
+#logo-main {
+    width: 50px;
+}
+
+main {
+    background-color: #F2F1E8;
+    margin-top: -50px;
+    height: 1600px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 450%;
+    padding-top: 100px;
+    font-weight: normal;
+}
+
+.about-section {
+    margin-left: 225px;
+    margin-right: 225px;
+}
+
+.about-section a {
+    color: #968772;
+}
+
+.about-section a:hover {
+    color: #967343;
+}
+
+#birdhouse {
+    height: 100px;
+    float: left;
+    margin-right: 30px;
+}
+
+.about-text {
+    margin-left: 100px;
+}
+
+blockquote {
+    border-left: solid;
+    padding: 15px 30px;
+    margin-left: 0px;
+}
+
+h2 {
+    font-weight: normal;
+    margin-left: 225px;
+    margin-top: 40px;
+    font-weight: normal;
+}
+
+#history-text {
+    margin-left: 225px;
+    margin-right: 225px;
+}
+
+#room-to-grow-img {
+    width: 1280px;
+    height: 350px;
+    object-fit: cover;
+    margin-top: 25px;
+}
+
+#room-to-grow-txt {
+    font-size: 400%;
+    color: white;
+    text-align: center;
+    margin-top: -325px;
+}
+
+.facilities-txt {
+    margin-left: 225px;
+    margin-right: 225px;
+}
+
+#facilities-img {
+    height: 100px;
+    width: 150px;
+}
+
+.aside {
+    float: right;
+    width: 150px;
+    margin: -130px 50px 0px 0px;
+}
+
+table {
+    margin-left: 225px;
+    margin-right: 225px;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: relative;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.row1 {
+    text-align: center;
+}
+
+.main-footer {
+    background-color: #39393a;
+    color: #F2F1E8;
+    font-size: 20px;
+    padding: 20px;
+}
